@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+             <html>
+                  <head>
+                       <link rel="stylesheet" href="style.css"><!--link containing my css file -->
+                       <meta charset="utf-8">
+                       <title>ALC FINAL PROJECT NAME: ADRESS BOOK</title>
+                       <meta name="EKEH CHUKWUEMEKA" content="alc final project adress book">
+                  </head>
+                  <body>
+                       
+                       <div id="navButton"><!-- div containing the navigation buttons: edit button, delete button and the hide/show toggle button -->
+                                          <button id="buttonEdit">Edit Contact</button>
+                                          <button id="buttonDelete">Delete Contact</button>
+                                          <button id="buttonAll">SHOW/HIDE</button>
+                       </div>
+    
+                       <div class="container" ><!--div containing form inputs and submit button-->
+                                 <form id="myForm">
+                                              <fieldset>
+                                                 <legend><b>ADDRESS BOOK</b></legend>
+                                                     FULL NAME: <input type="text" id="fullName" placeholder="Name" autofocus required > <br>
+                                                     PHONE NUMBER: <input type="tel" id="myNumber" maxlength="11" placeholder="Phone Number" required ><br>
+                                                     EMAIL: <input type="email" id="myEmail" placeholder="Email" required><br>
+                                                     <input type="submit" id="submit">
+                                              </fieldset>
+                                 </form>
+                       </div>
+   
+                       <div id="aside"><!-- div containing table which input values will be added into -->
+                                      <table id="table">
+                                          <caption><b>ALC PROJECT: THE ADDRESS BOOK</b></caption>    
+                                              <tr>
+                                                  <th>S/N</th>
+                                                  <th>Full Names</th>
+                                                  <th>Phone Number</th>
+                                                  <th>Email</th>
+                                              </tr>
+       
+           
+                                      </table>
+                       </div>
+    
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jquerry google cdn link -->
+<script src="design.js"></script><!--javascript link-->
+                </body>
+             </html>

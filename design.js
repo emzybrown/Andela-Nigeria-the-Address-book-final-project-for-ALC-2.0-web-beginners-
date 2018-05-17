@@ -1,10 +1,14 @@
+
+
 var rLine, table = document.getElementById("table");  //getting the table element
 
 
 var mySubmit = document.querySelector("#submit");      //querying the submit button, added eventlistener and called preventdefault.
 mySubmit.addEventListener("click", function(event){    //and my addcontact function.
     event.preventDefault();
-    addContact();
+    
+        addContact();
+
 });
                           
 var buttonEdit = document.querySelector("#buttonEdit"); //querried editbutton and added event listener to call editrow functon.
@@ -52,6 +56,7 @@ cell3.innerHTML = userNumber;
 cell4.innerHTML = userEmail;
 
     
+stop();
 
 selectRow();                                            // calling select row function
  
@@ -91,7 +96,6 @@ function deleteRow(){                                             //delete row f
     document.getElementById("myEmail").value =  " ";
 
 };
-
 
 
 

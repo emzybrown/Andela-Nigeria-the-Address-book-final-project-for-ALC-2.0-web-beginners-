@@ -7,3 +7,5 @@ I want to thank andela for the opportunity to learning basic coding, udacity for
 
 
 Time to review the codes 15/10/2022
+
+Code review now with Visual Studio, testing CI/CD 25/08/2024
